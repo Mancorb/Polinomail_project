@@ -1,5 +1,11 @@
 package cs380._amirandabosques22;
 
+/**
+ * added today
+ * 
+ * @author mahiggs
+ *
+ */
 public interface Polynomial_i {
 	
 	int size();//returns the number of terms in the polynomial
