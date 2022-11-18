@@ -10,7 +10,7 @@ class PolyTermTest {
 
 	@Test
 	//Test to see it I can set a new coefficient to the PolyTerm
-	void test_setCoefficient() {
+	void test_setCoefficient_1() {
 		PolyTerm plt = new PolyTerm();
 		plt.setCoefficient(2);
 		assertEquals(2, plt.coeff);
