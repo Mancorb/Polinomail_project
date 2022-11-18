@@ -2,9 +2,7 @@ package cs380._amirandabosques22;
 import java.lang.Math;
 
 class InvalidExponentException extends Exception {
-    /**
-	 * 
-	 */
+    
 	private static final long serialVersionUID = 1L;
 
 	public InvalidExponentException(String s)
@@ -15,9 +13,9 @@ class InvalidExponentException extends Exception {
 }
 
 
-public class PolyTerm implements PolyTerm_i{
-	double coeff = 0;
-	int exp = 0;
+	public class PolyTerm implements PolyTerm_i{
+		double coeff = 0;
+		int exp = 0;
 
 	public void setCoefficient(double aVal) {
 		this.coeff=aVal;
