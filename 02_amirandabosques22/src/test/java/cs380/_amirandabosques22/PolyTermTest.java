@@ -16,8 +16,9 @@ class PolyTermTest {
 		plt.setCoefficient(2);
 		assertEquals(2, plt.coeff);
 	}
-
+	
 	@Test
+	//Test to se if we can assign a new exponent to the object
 	void test_setExponent() {
 		PolyTerm plt = new PolyTerm();
 		plt.setExponent(3);

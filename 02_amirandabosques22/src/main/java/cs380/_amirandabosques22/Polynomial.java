@@ -12,7 +12,7 @@ public class Polynomial implements Polynomial_i{
 	public Polynomial() {
 		myTerms = new PolyTerm[INIT_SIZE];
 	}
-
+	//This method returns the number of elements stored in the current array
 	public int size() {
 		return  counter;
 	}
