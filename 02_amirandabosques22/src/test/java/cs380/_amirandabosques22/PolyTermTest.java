@@ -9,6 +9,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 class PolyTermTest {
 
 	@Test
+	//Test to see it I can set a new coefficient to the PolyTerm
 	void test_setCoefficient() {
 		PolyTerm plt = new PolyTerm();
 		plt.setCoefficient(2);
